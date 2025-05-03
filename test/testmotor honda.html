@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda Test Ride</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <nav class="bg-black shadow">
+        <div class="max-w-6xl mx-auto px-2">
+            <div class="flex items-center py-2 justify-between">
+                <div>
+                    <a href = "../index.html">
+                    <img src="../pictures/logonoshadow.png" alt="logo" class="transition-all duration-300 ease-in-out hover:scale-110 w-16 h-auto">
+                    </a>
+                </div>
+                <div class="flex items-center justify-center ml-10 space-x-4 flex-grow hidden md:flex">
+                    <a href="../index.html" class="px-3 py-2 text-white transition-all duration-300 ease-in-out hover:underline hover:scale-105">Home</a>
+                    <a href="../equipment.html" class="px-3 py-2 text-white transition-all duration-300 ease-in-out hover:underline hover:scale-105">Equipment</a>
+                    <a href="testbrand.html" class="px-3 py-2 text-white transition-all duration-300 ease-in-out hover:underline hover:scale-105">Brands</a>
+                    <a href="#" class="px-3 py-2 text-white transition-all duration-300 ease-in-out hover:underline hover:scale-105">About Us</a>
+                </div>
+            
+        </div>
+    </nav>
+
+       <!-- Mobile Menu -->
+       <div class="hidden md:hidden" id="mobile-menu">
+        <div class="flex flex-col bg-black text-white">
+            <a href="../index.html" class="px-4 py-2 transition-all duration-300 ease-in-out hover:underline hover:scale-90">Home</a>
+            <a href="../equipment.html" class="px-4 py-2 transition-all duration-300 ease-in-out hover:underline hover:scale-90">Equipment</a>
+            <a href="testbrand.html" class="px-4 py-2 transition-all duration-300 ease-in-out hover:underline hover:scale-90">Brands</a>
+            <a href="../aboutus.html" class="px-4 py-2 transition-all duration-300 ease-in-out hover:underline hover:scale-90">About Us</a>
+        </div>
+    </div>
+
+        <div class="bg-white  shadow-md overflow-hidden">
+            <div class="text-start p-4">
+                <h2 class=" text-3xl font-bold ml-5">AVAILABLE MODELS</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+                <!-- motorcycle -->
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/ninja400_23/overview/ninja400_23_gr1.jpg" 
+                         alt="Honda CBR500R" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Honda CBR500R</h3>
+                        <p class="text-gray-600">471cc | Sport | 2 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Honda CBR500R'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                    </div>
+                </div>
+                
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/z650_23/overview/z650_23_gr1.jpg" 
+                         alt="Honda CBR650R" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Honda CBR650R</h3>
+                        <p class="text-gray-600">649cc | Sport | 4 Cylinder</p>
+
+                        <button onclick="location.href='schedule.html?model=Honda CBR650R'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+
+                    </div>
+                </div>
+                
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="Honda CB650R" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Honda CB650R</h3>
+                        <p class="text-gray-600">649cc | Naked | 4 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Honda CB650R'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+
+                    </div>
+                </div>
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="Honda CB500 Hornet" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Honda CB500 Hornet</h3>
+                        <p class="text-gray-600">400cc | Naked | 2 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Honda CB500 Hornet'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                 </div>
+                </div>
+
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="Honda X-ADV" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Honda X-ADV</h3>
+                        <p class="text-gray-600">745cc | Scooter | 2 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Honda X-ADV'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                 </div>
+                </div>
+
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="Honda XL750 Transalp" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Honda XL750 Transalp</h3>
+                        <p class="text-gray-600">755cc | Adventure | 2 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Honda XL750 Transalp'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                 </div>
+                </div>
+    </main>
+</body>
+</html>

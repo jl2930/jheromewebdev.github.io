@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Motocampo - Premium Motorcycles & Riding Gear</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+                    colors: {
+                        'motocampo-red': '#e63946',
+                        'motocampo-blue': '#1d3557',
+                        'motocampo-light': '#f1faee',
+                    }
+                }
+    </script>
+
+</head>
+<nav class="bg-black shadow">
+    <div class="max-w-6xl mx-auto px-2">
+        <div class="flex items-center py-2 justify-between">
+            <div>
+                <a href = "index.html">
+                <img src="pictures/logonoshadow.png" alt="logo" class="transition-all duration-300 ease-in-out hover:scale-110 w-16 h-auto">
+                </a>
+            </div>
+            <div class="flex items-center justify-center space-x-4 flex-grow hidden md:flex">
+                <a href="index.html" class="px-3 py-2 text-white transition-all duration-300 ease-in-out hover:underline hover:scale-105">Home</a>
+                <a href="equipment.html" class="px-3 py-2 text-white transition-all duration-300 ease-in-out hover:underline hover:scale-105">Equipment</a>
+                <a href="test/testbrand.html" class="px-3 py-2 text-white transition-all duration-300 ease-in-out hover:underline hover:scale-105">Brands</a>
+                <a href="#" class="px-3 py-2 text-white transition-all duration-300 ease-in-out hover:underline hover:scale-105">About Us</a>
+            </div>
+            
+    </div>
+</nav>
+
+   <!-- Mobile Menu -->
+   <div class="hidden md:hidden" id="mobile-menu">
+    <div class="flex flex-col bg-black text-white">
+        <a href="index.html" class="px-4 py-2 transition-all duration-300 ease-in-out hover:underline hover:scale-90">Home</a>
+        <a href="equipment.html" class="px-4 py-2 transition-all duration-300 ease-in-out hover:underline hover:scale-90">Equipment</a>
+        <a href="#" class="px-4 py-2 transition-all duration-300 ease-in-out hover:underline hover:scale-90">Brands</a>
+        <a href="#" class="px-4 py-2 transition-all duration-300 ease-in-out hover:underline hover:scale-90">About Us</a>
+    </div>
+</div>
+
+<body class="bg-[#f1faee] font-sans">
+    <!-- About Content -->
+    <div class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="font-heading text-3xl text-[#1d3557] sm:text-4xl">
+                    WHO WE ARE
+                </h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Motocampo is more than just a motorcycle dealership - we're a community of passionate riders.
+                </p>
+            </div>
+
+            <div class="mt-20">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-[#f1faee] p-6 rounded-lg shadow-lg">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-[#e63946] text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                            </svg>
+                        </div>
+                        <h3 class="mt-5 text-lg font-medium text-[#1d3557]">Premium Motorcycles</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            We offer the latest models from top manufacturers, all available for test rides so you can find your perfect match.
+                        </p>
+                    </div>
+
+                    <div class="bg-[#f1faee] p-6 rounded-lg shadow-lg">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-[#e63946] text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg>
+                        </div>
+                        <h3 class="mt-5 text-lg font-medium text-[#1d3557]">Safety First</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Our comprehensive selection of riding gear includes helmets, jackets, gloves and more - because your safety is our priority.
+                        </p>
+                    </div>
+
+                    <div class="bg-[#f1faee] p-6 rounded-lg shadow-lg">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-[#e63946] text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="mt-5 text-lg font-medium text-[#1d3557]">Riding Community</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Join our community events, group rides, and workshops to connect with fellow enthusiasts and improve your skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawasaki Test Ride</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <nav class="bg-black shadow">
+        <div class="max-w-6xl mx-auto px-2">
+            <div class="flex items-center py-2 justify-between">
+                <div>
+                    <a href = "../index.html">
+                    <img src="../pictures/logonoshadow.png" alt="logo" class="transition-all duration-300 ease-in-out hover:scale-110 w-16 h-auto">
+                    </a>
+                </div>
+                <div class="flex items-center justify-center ml-10 space-x-4 flex-grow hidden md:flex">
+                    <a href="../index.html" class="px-3 py-2 text-white transition-all duration-300 ease-in-out hover:underline hover:scale-105">Home</a>
+                    <a href="../equipment.html" class="px-3 py-2 text-white transition-all duration-300 ease-in-out hover:underline hover:scale-105">Equipment</a>
+                    <a href="testbrand.html" class="px-3 py-2 text-white transition-all duration-300 ease-in-out hover:underline hover:scale-105">Brands</a>
+                    <a href="#" class="px-3 py-2 text-white transition-all duration-300 ease-in-out hover:underline hover:scale-105">About Us</a>
+                </div>
+        </div>
+    </nav>
+
+       <!-- Mobile Menu -->
+       <div class="hidden md:hidden" id="mobile-menu">
+        <div class="flex flex-col bg-black text-white">
+            <a href="../index.html" class="px-4 py-2 transition-all duration-300 ease-in-out hover:underline hover:scale-90">Home</a>
+            <a href="../equipment.html" class="px-4 py-2 transition-all duration-300 ease-in-out hover:underline hover:scale-90">Equipment</a>
+            <a href="testbrand.html" class="px-4 py-2 transition-all duration-300 ease-in-out hover:underline hover:scale-90">Brands</a>
+            <a href="../aboutus.html" class="px-4 py-2 transition-all duration-300 ease-in-out hover:underline hover:scale-90">About Us</a>
+        </div>
+    </div>
+
+        <div class="bg-white  shadow-md overflow-hidden">
+            <div class="text-start p-4">
+                <h2 class=" text-3xl font-bold ml-5">AVAILABLE MODELS</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+                <!-- motorcycle -->
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/ninja400_23/overview/ninja400_23_gr1.jpg" 
+                         alt="Ninja 400" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Kawasaki Ninja 400</h3>
+                        <p class="text-gray-600">399cc | Sport | 2 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Kawasaki Ninja 400'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                    </div>
+                </div>
+                
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/z650_23/overview/z650_23_gr1.jpg" 
+                         alt="Ninja 500" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Kawasaki Ninja 500</h3>
+                        <p class="text-gray-600">451cc | Sport | 2 Cylinder</p>
+
+                        <button onclick="location.href='schedule.html?model=Kawasaki Ninja 500'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+
+                    </div>
+                </div>
+                
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="Ninja 650" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Kawasaki Ninja 650</h3>
+                        <p class="text-gray-600">649cc | Sport | 2 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Kawasaki Ninja 650'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+
+                    </div>
+                </div>
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="ZX4RR" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Kawasaki ZX4RR</h3>
+                        <p class="text-gray-600">400cc | Sport | 4 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Kawasaki ZX4RR'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                 </div>
+                </div>
+
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="ZX6R" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Kawasaki ZX6R</h3>
+                        <p class="text-gray-600">636cc | Sport | 4 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Kawasaki ZX6R'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                 </div>
+                </div>
+
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="ZX10R" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Kawasaki ZX10R</h3>
+                        <p class="text-gray-600">998cc | Sport | 4 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Kawasaki ZX10R'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                 </div>
+                </div>
+
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="Versys 650" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Kawasaki Versys 650</h3>
+                        <p class="text-gray-600">649cc | Adventure | 2 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Kawasaki Versys 650'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                 </div>
+                </div>
+
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="Versys 1000" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Kawasaki Versys 1000</h3>
+                        <p class="text-gray-600">1043cc | Adventure | 4 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Kawasaki Versys 1000'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                 </div>
+                </div>
+
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="Z400" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Kawasaki Z400 </h3>
+                        <p class="text-gray-600">399cc | Naked | 2 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Kawasaki Z400'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                 </div>
+                </div>
+
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="Z650" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Kawasaki Z650 </h3>
+                        <p class="text-gray-600">649cc | Naked | 2 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Kawasaki Z650'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                 </div>
+                </div>
+
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="Z1000" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Kawasaki Z1000 </h3>
+                        <p class="text-gray-600">1043cc | Naked | 4 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Kawasaki Z1000'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                 </div>
+                </div>
+
+                <div class="border rounded-lg overflow-hidden hover:shadow-lg transition cursor-pointer group">
+                    <img src="https://www.kawasaki.com/content/dam/kawasaki/en/motorcycle/2023/versys650_23/overview/versys650_23_gr1.jpg" 
+                         alt="Vulcan" 
+                         class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg">Kawasaki Vulcan 650 </h3>
+                        <p class="text-gray-600">649cc | Cruiser | 2 Cylinder</p>
+                         <button onclick="location.href='schedule.html?model=Kawasaki Vulcan 650'" class="mt-2 w-full group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-red-600 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-gray-600/50 border border-white/20">
+    <span class="text-lg">Schedule Test Ride</span>
+    <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]">
+        <div class="relative h-full w-10 bg-white/20"></div>
+    </div>
+</button>
+                 </div>
+                </div>
+
+
+    </main>
+</body>
+</html>
